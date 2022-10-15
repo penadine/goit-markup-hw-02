@@ -165,10 +165,7 @@ h3 {
   line-height: 1.71;
 }
 
-.contact .address {
-  color: #ffffff;
-}
-
+.contact .address,
 .contact .mail,
 .contact .tel {
   color: rgba(255, 255, 255, 0.6);
@@ -180,7 +177,7 @@ h3 {
 .contact .mail:focus,
 .contact .tel:hover,
 .contact .tel:focus {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 /* Сторінка Портфоліо */
