@@ -115,7 +115,7 @@ h3 {
 .benefit {
   line-height: 1.14;
   font-weight: 700;
-  /* font-size: 14px; */
+  font-size: 14px;
 }
 
 .benefit-description {
@@ -133,6 +133,10 @@ h3 {
 .team {
   background-color: #f5f4fa;
   text-align: center;
+}
+
+.team-people {
+  background-color: #ffffff;
 }
 
 .name {
@@ -168,6 +172,15 @@ h3 {
 .contact .mail,
 .contact .tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact .address:hover,
+.contact .address:focus,
+.contact .mail:hover,
+.contact .mail:focus,
+.contact .tel:hover,
+.contact .tel:focus {
+  color: var(--accent-color);
 }
 
 /* Сторінка Портфоліо */
