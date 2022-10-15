@@ -1,0 +1,207 @@
+:root {
+  --title-text-color: #212121;
+  --paragraph-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: var(--paragraph-color);
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+/* Шапка сторінки */
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Навігація по сайту */
+
+/* лого */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+/* лого в шапці */
+.logo .black {
+  color: #000000;
+}
+
+/* Головна сторінка */
+
+/* Студія, Потфоліо, Контакти */
+.navigation-link {
+  color: var(--title-text-color);
+}
+
+/* при наведенні */
+.navigation-link:hover,
+.navigation-link:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+.mail,
+.tel {
+  color: var(--paragraph-color);
+}
+
+/* Ефективні рішення для вашого бізнесу */
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* Кнопка Замовити послугу */
+.button {
+  background: var(--accent-color);
+  font-family: Roboto, sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  background: #188ce8;
+}
+
+.button-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* Наші переваги та вміння */
+
+.benefit {
+  line-height: 1.14;
+  font-weight: 700;
+  /* font-size: 14px; */
+}
+
+.benefit-description {
+  line-height: 1.71;
+}
+
+.title-doing,
+.title-team {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+  text-align: center;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Підвал сторінки */
+.footer {
+  background-color: #2f303a;
+}
+
+/* лого в підвалі */
+.logo .white {
+  color: #ffffff;
+}
+
+/* Контактна інформація */
+.contact {
+  line-height: 1.71;
+}
+
+.contact .address {
+  color: #ffffff;
+}
+
+.contact .mail,
+.contact .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Сторінка Портфоліо */
+
+/* Радіокнопки: Усі, Веб-сайти, Додатки, Дизайн, Маркентинг */
+.radiobutton {
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Радіокнопки при наведенні */
+.radiobutton:hover,
+.radiobutton:focus {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.order-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
